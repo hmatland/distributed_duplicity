@@ -50,7 +50,7 @@ else:
 	duplicity_restorer.run_restoration()
 	duplicity_restorer.remove_env_var()
 	print 'Decoding downloaded files'
-	dec = decoder2.Decoder(temp_path, restore_path)
+	dec = decoder.Decoder(temp_path, restore_path)
 	dec.decode_directory()
 	print 'Restored to path: '+ restore_path
 	utility.delete_temp_directory(temp_path)
