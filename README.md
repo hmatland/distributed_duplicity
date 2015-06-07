@@ -9,7 +9,7 @@ The following open-source software needs to be installed to use distributed-dupl
 * [Duplicity] - Encrypted bandwidth-efficient backup using the rsync algorithm.
 * [zfec] - A fast erasure codec which can be used with the command-line, C, Python, or Haskell
 
-Install Duplicity:
+Install [Duplicity]:
 ```sh
 $ brew install duplicity
 ```
@@ -17,7 +17,7 @@ or
 ```sh
 $ apt-get install duplicity
 ```
-Install zfec:
+Install [zfec]:
 ```sh
 $ pip install zfec
 ```
