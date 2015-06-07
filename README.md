@@ -22,12 +22,18 @@ Install [zfec]:
 $ pip install zfec
 ```
 
+If installation of zfec fails, you might not have [python-dev] installed on your distribution:
+```sh
+$ apt-get install python-dev
+```
+Python-dev is required to compile certain python packages on pip. Installation of zfec will fail without it because it has some C files in need of compilation.
 ----------
 
 [NTNU]:http://www.ntnu.no
 [Duplicity]:http://duplicity.nongnu.org/
 [zfec]:https://pypi.python.org/pypi/zfec
 [GnuPG]:https://www.gnupg.org/
+
 
 How does it work?
 -------------
