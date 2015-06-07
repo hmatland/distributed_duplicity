@@ -1,7 +1,6 @@
 import os
 import sys
 import getopt
-import psutil
 import errno
 import glob
 import utility
