@@ -70,3 +70,6 @@ This time, the software was able to restore with only 2 of the 3 storage hosts a
 
 
 Feel free to test around with the xor and zfec encoder/decoder file to understand better how the erasure codes create partial files, and the content of the partial files.
+
+
+Copyright of written code: Håkon Nymo Matland, 2015.
